@@ -1,0 +1,36 @@
+$red :pink;
+$main:#002eac;
+
+$info :$red;
+$dark : $main;
+
+$enable-important-utilities:false;
+$enable-rounded:false;
+
+.si {
+	color:$red !important;
+	text-transform: uppercase ;
+	border-radius: 50px !important;
+
+}
+
+.si:hover {
+	border:1px solid red;
+}
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom
+@import "custom";
+
+//fontawesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
